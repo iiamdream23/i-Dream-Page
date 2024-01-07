@@ -37,10 +37,26 @@ const App: React.FC = () => {
       {/* Cta Section Large Screen */}
       <div className='xl:bg-gray-100 p-4'>
       <div className='hidden xl:flex xl:justify-center xl:items-center xl:space-x-32 xl:m-28'>
-        <div>
-          <h1 className='text-4xl'>
+        <div className=''>
+        
+          
+          {/* <div>
+            <h3>
+              Testimonials
+            </h3>
+          </div> */}
+          <div>
+          <h1 className='text-5xl'>
             People are <span className='text-blue-500'>Talking</span>
           </h1>
+          </div>
+          {/* <div>
+            <p>
+              What are people saying about us
+            </p>
+          </div> */}
+          
+        
         </div>
       <div>
         <CtaSection />
