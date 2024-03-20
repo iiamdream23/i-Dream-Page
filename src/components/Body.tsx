@@ -3,7 +3,7 @@ import React from 'react'
 const Body: React.FC = () => {
   return (
     <div className='my-8'>
-      <div className='flex justify-center xl:hidden space-x-8'>
+      <div className='flex justify-center lg:hidden space-x-8'>
         {/* First Button */}
         <div>
           <button className='text-blue-500 text-xl hover:bg-blue-500 hover:text-white font-sans font-semibold bg-gray-100 shadow rounded-full px-6 py-4'>

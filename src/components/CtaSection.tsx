@@ -14,19 +14,19 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: 'Engineer Charles',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: '../imgs/him.jpg', // Replace with the actual image URL
+    imageUrl: '../imgs/him.jpg',
   },
   {
     id: 2,
     name: 'Karis',
     comment: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    imageUrl: '../imgs/herr.jpg', // Replace with the actual image URL
+    imageUrl: '../imgs/herr.jpg',
   },
   {
     id: 3,
     name: 'Imala Ik',
     comment: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
-    imageUrl: '../imgs/me.jpg', // Replace with the actual image URL
+    imageUrl: '../imgs/me.jpg',
   },
 ];
 

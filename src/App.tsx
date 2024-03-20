@@ -21,13 +21,13 @@ const App: React.FC = () => {
         <Body />
       </div>
       <div className=''>
-      <div className='flex justify-center m-20 xl:hidden'>
+      <div className='flex justify-center m-20 lg:hidden'>
           <h1 className='text-4xl'>
             Testimonials
           </h1>
         </div>
       {/* Cta Section Small Screen */}
-      <div className='flex justify-center m-28 xl:hidden'>
+      <div className='flex justify-center m-28 lg:hidden'>
         <div>
         <CtaSection />
         </div>
@@ -35,8 +35,8 @@ const App: React.FC = () => {
       </div>
       
       {/* Cta Section Large Screen */}
-      <div className='xl:bg-gray-100 p-4'>
-      <div className='hidden xl:flex xl:justify-center xl:items-center xl:space-x-32 xl:m-28'>
+      <div className='lg:bg-gray-100 p-4'>
+      <div className='hidden lg:flex lg:justify-center lg:items-center lg:space-x-32 lg:m-28'>
         <div className=''>
         
           
@@ -64,7 +64,7 @@ const App: React.FC = () => {
       </div>
       </div>
       {/* Footer */}
-      <div className='h-40 flex items-end justify-end bg-gray-100 xl:bg-white xl:flex xl:items-start xl:justify-start p-10 xl:p-10 space-y-4'>
+      <div className='h-40 flex items-end justify-end bg-gray-100 lg:bg-white lg:flex lg:items-start lg:justify-start p-10 lg:p-10 space-y-4'>
         <Footer />
       </div>
     </div>

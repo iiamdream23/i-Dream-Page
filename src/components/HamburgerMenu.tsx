@@ -26,7 +26,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ items }) => {
         )}
       </div>
       {isOpen && (
-        <ul className="list-none p-4 shadow-md rounded-lg bg-white text-black border-gray-100 absolute mt-2">
+        <ul className="list-none p-4 shadow-md rounded-lg bg-white text-black border-gray-100 absolute mt-2 transition-all duration-500 hover:translate-y-5 right-8">
           {items.map((item, index) => (
             <li
               key={index}
